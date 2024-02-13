@@ -6,6 +6,10 @@ This checklist can be used to keep track of SQL jobs and when they should run. T
 
 You will need to create jobs and set the times the jobs need to run, and when the time is reached a desktop notification and a sound will notify you that a job should have ran.
 
+## Requirements
+For this project you will need the following:
+- Vue.js 3.0 (You can install this using the commands on the Vue.js website)
+
 ## Initialising the project
 Simply clone the project and then simply run the following command to install all the packages listed in the package.json file:
 
@@ -77,6 +81,10 @@ Clicking the checkbox on the right of the job silences the alarm, but keeps the 
 Clicking the checkbox on the left of the job silences the alarm, clears the checkbox on the right and marks the job as complete.
 
 ## Costs
-Everything about this project is free and you can even host the Database for free as long as you stay within the free tier thresholds that Firebase has set out. I do not charge any fees either, all I ask is that my work be acknowledged in the project and maybe a thank you email, I get immense satisfaction from this alone.
+Everything about this project is free and you can even host the Database for free as long as you stay within the free tier thresholds that Firebase has set out. I do not charge any fees either, all I ask is that my work be acknowledged in your project and maybe a thank-you email, I get immense satisfaction from this alone.
 
 Should you wish to add more than 200 SQL jobs, you might go over the free tier's daily thresholds, but then upgrading your Firebase account to a Blaze plan is cheap and easy. You can do this inside Firebase, but it's not necessary for smaller companies.
+
+## Different versions
+I do not currently plan on improving the current designs and implementations, but should the need or desire arise I will create an update.
+There are however two versions of this tool already. A pure HTML, CSS and JS implementation and then this Vue version. For now, only the Vue version is uploaded and should anyone want it, I will definitely upload the pure version.
